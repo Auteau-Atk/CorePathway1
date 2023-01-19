@@ -17,6 +17,7 @@ public class BulletSpawner : MonoBehaviour
 
     public void SpawnBullet()
     {
-        Instantiate(bullet, transform.position, transform.rotation);
+        GameObject tempBullet = Instantiate(bullet, transform.position, transform.rotation);
+        Destroy(tempBullet, destroyDelay);
     }    
 }
