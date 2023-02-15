@@ -7,6 +7,7 @@ TagManager:
   - Obstacle
   - PlayerEyes
   - DamagingObject
+  - Lever
   layers:
   - Default
   - TransparentFX
