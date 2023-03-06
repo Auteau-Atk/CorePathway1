@@ -8,6 +8,14 @@ TagManager:
   - PlayerEyes
   - DamagingObject
   - Lever
+  - DoorButton
+  - Ledge
+  - SustainedDamagingObject
+  - Key
+  - Chain
+  - Goggles
+  - LeverBase
+  - Base
   layers:
   - Default
   - TransparentFX
@@ -15,6 +23,12 @@ TagManager:
   - 
   - Water
   - UI
+  - whatIsPlayer
+  - key
+  - Interact
+  - whatIsWall
+  - whatIsGround
+  - whatIsLedge
   - 
   - 
   - 
@@ -23,14 +37,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - postProcessing
+  - dontRender
   - 
   - 
   - 

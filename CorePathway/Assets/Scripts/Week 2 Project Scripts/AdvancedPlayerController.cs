@@ -8,7 +8,8 @@ public class AdvancedPlayerController : MonoBehaviour
     public CharacterController controller;
     public Transform cam;
 
-    public float speed = 6f;
+    public float startingSpeed = 6f;
+    public float speed;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
@@ -25,6 +26,7 @@ public class AdvancedPlayerController : MonoBehaviour
 
     private void Start()
     {
+        speed = startingSpeed;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
